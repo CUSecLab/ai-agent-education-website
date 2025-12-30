@@ -1,8 +1,9 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
-export const dynamic = "force-static";
-export const revalidate = false;
+
+export const dynamic = "force-static"
+export const revalidate = false
 
 import "./globals.css"
 
@@ -40,9 +41,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans antialiased`}>
+      <body className="font-sans antialiased">
         {children}
-        <Analytics />
       </body>
     </html>
   )
