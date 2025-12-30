@@ -1,30 +1,59 @@
 # AI Agent Education Website
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Official education website for the AI Agent Education initiative under the CUSecLab, focused on making
+LLM-based AI agents accessible to researchers and students in the Social, Behavioral, and Economic (SBE) sciences.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/spati-7144s-projects/v0-ai-agent-education-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/f3czPRz7Ldh)
+---
 
-## Overview
+## 🌐 Live Website
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+The website is hosted using **GitHub Pages** under the CUSecLab organization:
 
-## Deployment
+👉 **https://cuseclab.github.io/ai-agent-education-website/**
 
-Your project is live at:
+---
 
-**[https://vercel.com/spati-7144s-projects/v0-ai-agent-education-website](https://vercel.com/spati-7144s-projects/v0-ai-agent-education-website)**
+## 📌 Overview
 
-## Build your app
+This project provides educational materials, examples, and demonstrations to help non–computer science
+researchers understand and use AI agents powered by Large Language Models (LLMs) for research workflows,
+data analysis, and social science applications.
 
-Continue building your app on:
+The site is built using **Next.js** and deployed as a **static export** for long-term, stable hosting
+via GitHub Pages.
 
-**[https://v0.app/chat/f3czPRz7Ldh](https://v0.app/chat/f3czPRz7Ldh)**
+---
 
-## How It Works
+## 🛠️ Technology Stack
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- Next.js (Static Export)
+- TypeScript
+- React
+- GitHub Actions
+- GitHub Pages
+
+---
+
+## 🚀 Deployment
+
+The website is automatically built and deployed using **GitHub Actions** on every push to the `main` branch.
+
+Deployment workflow:
+- Builds the site using `next build` with static export
+- Uploads the generated static files
+- Deploys them to GitHub Pages
+
+No external hosting services (e.g., Vercel) are required for deployment.
+
+---
+
+## 👥 Maintainers
+
+CUSecLab  
+Clemson University
+
+---
+
+## 📄 License
+
+This project is maintained for educational and research purposes under CUSecLab.
