@@ -3,9 +3,9 @@ const nextConfig = {
   // Required for GitHub Pages
   output: "export",
 
-  // Required because your repo is NOT at root domain
-  basePath: "/v0-ai-agent-education-website",
-  assetPrefix: "/v0-ai-agent-education-website/",
+  // 🔴 MUST match the new repo name
+  basePath: "/ai-agent-education-website",
+  assetPrefix: "/ai-agent-education-website/",
 
   // GitHub Pages cannot optimize images
   images: {
