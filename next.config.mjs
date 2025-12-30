@@ -1,17 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-
-  basePath: "/v0-ai-agent-education-website",
-  assetPrefix: "/v0-ai-agent-education-website/",
-
-  images: {
-    unoptimized: true,
-  },
-
   typescript: {
     ignoreBuildErrors: true,
   },
-};
+  images: {
+    unoptimized: true,
+  },
+ 
+}
 
-export default nextConfig;
+export default nextConfig
